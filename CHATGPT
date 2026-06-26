@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Aspenleaf Apartments | Izze Babb</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -14,68 +14,65 @@
     <h1>Izze Babb</h1>
     <p>Leasing Agent | Aspenleaf Apartments</p>
 
-    <a class="btn primary"
-       href="https://bookings.cloud.microsoft/book/TourAspenleafwithIzze@thegouldco.com/?ismsaljsauthenabled"
-       target="_blank">
-       Schedule a Tour
-    </a>
+    <div class="buttons">
+      <a class="btn primary"
+         href="https://bookings.cloud.microsoft/book/TourAspenleafwithIzze@thegouldco.com/?ismsaljsauthenabled"
+         target="_blank">
+         Schedule a Tour
+      </a>
 
-    <a class="btn secondary"
-       href="https://www.on-site.com/web/online_app3/212601/step/criteria"
-       target="_blank">
-       Apply Now
-    </a>
+      <a class="btn secondary"
+         href="https://www.on-site.com/web/online_app3/212601/step/criteria"
+         target="_blank">
+         Apply Now
+      </a>
+    </div>
   </div>
 </header>
 
 <section class="section">
   <h2>Welcome</h2>
   <p>
-    Hi, I’m <strong>Izze Babb</strong>, a Leasing Agent at Aspenleaf Apartments.
-    I’m here to make your apartment search simple, clear, and stress-free.
+    Hi, I’m <strong>Izze Babb</strong>, Leasing Agent at Aspenleaf Apartments.
+    I help make your apartment search simple and stress-free.
   </p>
 </section>
 
 <section class="section alt">
   <h2>Leasing Process</h2>
-  <div class="steps">
-    <div>1. Schedule a Tour</div>
-    <div>2. Tour the Community</div>
-    <div>3. Submit Application</div>
-    <div>4. Screening Process</div>
-    <div>5. Lease Signing</div>
-    <div>6. Move In</div>
-  </div>
+  <ol>
+    <li>Schedule a Tour</li>
+    <li>Tour the Community</li>
+    <li>Submit Application</li>
+    <li>Screening Review</li>
+    <li>Lease Signing</li>
+    <li>Move In</li>
+  </ol>
 </section>
 
 <section class="section">
   <h2>Photo Gallery</h2>
   <div class="gallery">
-    <img src="https://source.unsplash.com/600x400/?apartment,kitchen" />
-    <img src="https://source.unsplash.com/600x400/?apartment,living-room" />
-    <img src="https://source.unsplash.com/600x400/?apartment,bedroom" />
-    <img src="https://source.unsplash.com/600x400/?apartment,building" />
-    <img src="https://source.unsplash.com/600x400/?pool,apartment" />
-    <img src="https://source.unsplash.com/600x400/?gym,fitness" />
+    <img src="https://source.unsplash.com/600x400/?apartment,kitchen">
+    <img src="https://source.unsplash.com/600x400/?apartment,living-room">
+    <img src="https://source.unsplash.com/600x400/?apartment,bedroom">
+    <img src="https://source.unsplash.com/600x400/?apartment,building">
+    <img src="https://source.unsplash.com/600x400/?pool,apartment">
+    <img src="https://source.unsplash.com/600x400/?gym,fitness">
   </div>
 </section>
 
 <section class="section alt">
-  <h2>Frequently Asked Questions</h2>
+  <h2>FAQ</h2>
 
-  <div class="faq">
-    <button>What do I need to apply?</button>
-    <p>ID, proof of income, and application fee are required.</p>
+  <button class="faq">What do I need to apply?</button>
+  <div class="answer">ID, proof of income, and application fee.</div>
 
-    <button>Are pets allowed?</button>
-    <p>Yes, Aspenleaf Apartments is pet-friendly (restrictions may apply).</p>
+  <button class="faq">Are pets allowed?</button>
+  <div class="answer">Yes, Aspenleaf is pet friendly.</div>
 
-    <button>How long does approval take?</button>
-    <p>Typically 24–72 hours depending on screening.</p>
-
-    <button>What utilities are included?</button>
-    <p>Contact the leasing office for current utility information.</p>
-  </div>
+  <button class="faq">How long is approval?</button>
+  <div class="answer">Usually 24–72 hours.</div>
 </section>
 
 <section class="section">
@@ -83,14 +80,12 @@
   <a class="btn primary"
      href="https://bookings.cloud.microsoft/book/TourAspenleafwithIzze@thegouldco.com/?ismsaljsauthenabled"
      target="_blank">
-     Book Your Tour
+     Book Now
   </a>
 </section>
 
 <section class="section alt">
   <h2>Contact</h2>
-
-  <p><strong>Izze Babb – Leasing Agent</strong></p>
   <p>📞 970-226-5477</p>
   <p>✉️ Aspenleafapt@yahoo.com</p>
 </section>
